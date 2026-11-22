@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#faf8f2" />
+  <meta name="description" content="Inclusive Mealtimes: a culturally respectful parent guide to autism, ADHD, sensory food differences and supportive community meals." />
+  <title>Every Child, Every Table | Inclusive Mealtimes</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <script defer src="food-explorer.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Every Child, Every Table, home">
+        <span class="brand-logo-wrap" aria-hidden="true">
+          <img class="brand-logo-image" src="assets/logo.png" alt="" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true" />
+          <span class="brand-mark"><svg viewBox="0 0 46 46"><circle cx="23" cy="23" r="22" fill="#f8c75f"/><path d="M13 25c2 8 18 12 22-1" stroke="#1e6259" stroke-width="3.8" fill="none" stroke-linecap="round"/><circle cx="17" cy="17" r="2.4" fill="#1e6259"/><circle cx="29" cy="17" r="2.4" fill="#1e6259"/><path d="M6 9l-3-4M40 9l3-4" stroke="#f2a45e" stroke-width="3" stroke-linecap="round"/></svg></span>
+        </span>
+        <span>every child,<br /><strong>every table.</strong></span>
+      </a>
+      <button class="mobile-menu" id="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open navigation">☰</button>
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+        <a href="#understand">Understand</a><a href="#sensory">Sensory needs</a><a href="#culture">Culture</a><a href="#food-explorer">Food explorer</a><a href="#strategies">Parent toolkit</a><a href="#help">When to seek help</a>
+      </nav>
+      <a class="header-cta" href="#make-plan">Make a plan <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <div id="top"></div>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> A PARENT & CAREGIVER RESOURCE</p>
+        <h1 id="hero-title">Every child belongs <em>at the table.</em></h1>
+        <p class="hero-lede">Food is more than nutrition. From Emirati harees to South Asian idli, Japanese onigiri and West African jollof, it connects us to family, culture, comfort and community. For children with autism or ADHD, sensory needs can make mealtimes feel different. <strong>Understanding comes before expectation.</strong></p>
+        <div class="hero-actions"><a class="btn btn-dark" href="#understand">Explore the guide <span aria-hidden="true">↗</span></a><a class="btn btn-light" href="#food-explorer">Explore cultural foods <span aria-hidden="true">→</span></a></div>
+        <div class="hero-support"><div class="micro-avatars" aria-hidden="true"><span>👧🏽</span><span>👦🏻</span><span>👧🏿</span><span>🧒🏼</span></div><p>Different children. Different needs.<br /><strong>One welcoming community.</strong></p></div>
+      </div>
+      <div class="hero-illustration">
+        <div class="hero-sticker sticker-one">🌸 Everyone belongs!</div>
+        <div class="hero-sticker sticker-two">💛 Food is culture</div>
+        <svg class="community-art" viewBox="0 0 590 520" role="img" aria-label="Warm illustration of a diverse group of children and caregivers gathered at a community table, with different clothes, hair, a wheelchair and headphones, celebrating friendship and belonging" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fde4c7"/><stop offset="1" stop-color="#dcefe4"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="9" stdDeviation="12" flood-color="#a46d4a" flood-opacity=".12"/></filter></defs>
+          <rect x="8" y="7" width="574" height="506" rx="50" fill="url(#sky)"/>
+          <circle cx="501" cy="87" r="43" fill="#ffe9aa"/>
+          <path d="M0 338Q145 301 298 341T590 325V520H0Z" fill="#c7e1c9"/>
+          <path d="M35 325Q156 286 262 323T555 315" fill="none" stroke="#f8fbec" stroke-width="6" stroke-dasharray="10 18"/>
+          <g stroke="#779b76" stroke-width="4" stroke-linecap="round"><path d="M66 298v-75M64 258l-24-21M66 245l25-28M523 300v-93M522 250l-24-21M522 244l28-22"/></g>
+          <g fill="#f9f2d2"><circle cx="40" cy="237" r="18"/><circle cx="89" cy="218" r="21"/><circle cx="497" cy="224" r="24"/><circle cx="546" cy="210" r="26"/></g>
+          <g filter="url(#shadow)">
+          <!-- standing adult at left, modest head covering -->
+          <path d="M103 197q-27 4-37 47l5 96h94l-2-94q-7-43-36-49Z" fill="#f5ab80"/>
+          <rect x="102" y="187" width="26" height="34" rx="12" fill="#ac6f4d"/>
+          <ellipse cx="114" cy="163" rx="32" ry="42" fill="#b67855"/>
+          <path d="M80 177q-5-65 36-67 42 3 38 67-12-13-14-28-28 21-57 15Z" fill="#bc674c"/>
+          <path d="M82 179q-12 36-8 65l19-22 7-43Z" fill="#bc674c"/>
+          <circle cx="104" cy="166" r="2.5" fill="#3b2725"/><circle cx="127" cy="166" r="2.5" fill="#3b2725"/><path d="M107 180q7 7 14-1" stroke="#7d3a35" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+          <!-- adult with curly hair -->
+          <path d="M428 215q-29 6-34 54l-9 94h104l-12-95q-8-45-33-53Z" fill="#6c9da4"/>
+          <ellipse cx="436" cy="181" rx="37" ry="43" fill="#7f4f37"/>
+          <g fill="#3e3030"><circle cx="410" cy="150" r="18"/><circle cx="427" cy="135" r="20"/><circle cx="454" cy="140" r="20"/><circle cx="466" cy="160" r="17"/><circle cx="408" cy="173" r="16"/></g>
+          <circle cx="426" cy="184" r="2.5" fill="#302626"/><circle cx="446" cy="184" r="2.5" fill="#302626"/><path d="M426 196q11 9 22-1" stroke="#442c25" stroke-width="2.7" fill="none" stroke-linecap="round"/>
+          <!-- central child with headphones -->
+          <path d="M195 270q-20 10-28 50v70h120v-70q-10-41-32-50Z" fill="#f9cc6d"/>
+          <ellipse cx="226" cy="242" rx="38" ry="42" fill="#d0956e"/>
+          <path d="M192 237q-1-43 35-46 36 2 36 45-17-17-33-13-12 5-38 14" fill="#493c37"/>
+          <path d="M188 238a40 42 0 0 1 79 1" stroke="#6485bb" stroke-width="10" fill="none"/><rect x="183" y="229" width="14" height="33" rx="7" fill="#6485bb"/><rect x="256" y="229" width="14" height="33" rx="7" fill="#6485bb"/>
+          <circle cx="214" cy="247" r="2.5" fill="#3e2a2a"/><circle cx="238" cy="247" r="2.5" fill="#3e2a2a"/><path d="M216 261q10 7 20-1" stroke="#784f45" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+          <!-- right child -->
+          <path d="M315 271q-23 12-28 55v63h105v-62q-8-46-28-56Z" fill="#da87a4"/>
+          <ellipse cx="340" cy="238" rx="36" ry="43" fill="#f1bb93"/>
+          <path d="M304 239q-5-45 37-47 29 0 36 43-18-12-29-26-14 15-44 30" fill="#3d373c"/>
+          <circle cx="327" cy="243" r="2.6" fill="#3d373c"/><circle cx="350" cy="243" r="2.6" fill="#3d373c"/><path d="M331 256q9 8 19-1" stroke="#8b584b" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+          <path d="M391 340q26-1 37 20" stroke="#875942" stroke-width="10" stroke-linecap="round"/>
+          <!-- wheelchair detail for accessibility, partly behind table -->
+          <circle cx="444" cy="414" r="33" fill="none" stroke="#66869e" stroke-width="9"/><circle cx="444" cy="414" r="8" fill="#66869e"/><path d="M428 348v39h30l-15 25" stroke="#66869e" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- communal table -->
+          <ellipse cx="290" cy="381" rx="233" ry="57" fill="#a86d51"/>
+          <ellipse cx="290" cy="367" rx="233" ry="57" fill="#dbab80"/>
+          <rect x="87" y="387" width="30" height="87" rx="8" fill="#9c6148"/><rect x="470" y="387" width="30" height="87" rx="8" fill="#9c6148"/>
+          <ellipse cx="216" cy="357" rx="47" ry="17" fill="#fff9e8"/><ellipse cx="216" cy="357" rx="30" ry="10" fill="#e2c187"/>
+          <ellipse cx="357" cy="359" rx="50" ry="17" fill="#fff9e8"/><circle cx="342" cy="359" r="10" fill="#bbdb91"/><circle cx="360" cy="355" r="8" fill="#ed9b70"/><circle cx="371" cy="362" r="8" fill="#bbdb91"/>
+          <path d="M274 341q13-33 31 0" stroke="#e9b868" stroke-width="11" fill="none" stroke-linecap="round"/>
+          <circle cx="289" cy="328" r="7" fill="#9fbe7e"/>
+          </g>
+          <g fill="#fff" stroke="#f2bd8e" stroke-width="2"><path d="M24 81q0-20 23-20h120q22 0 22 20v44q0 20-22 20H98l-15 16v-16H47q-23 0-23-20Z"/><path d="M390 57q0-18 21-18h120q20 0 20 18v40q0 18-20 18h-36l-12 16v-16h-72q-21 0-21-18Z"/></g>
+          <text x="47" y="100" font-family="system-ui" font-size="17" font-weight="800" fill="#477466">Hello! مرحباً</text>
+          <text x="411" y="77" font-family="system-ui" font-size="17" font-weight="800" fill="#477466">Welcome!</text><text x="427" y="97" font-family="system-ui" font-size="13" fill="#477466">Everyone.</text>
+        </svg>
+        <span class="illustration-label">Different foods. Shared belonging.</span>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><span>EVERY CHILD MATTERS ✦ CULTURE COUNTS ✦ SENSORY NEEDS ARE REAL ✦ FAMILIES BELONG ✦ KINDNESS FIRST ✦ EVERY CHILD MATTERS ✦ CULTURE COUNTS ✦</span></div>
+
+    <section id="understand" class="section container" aria-labelledby="understand-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / UNDERSTAND</p><h2 id="understand-title">It's not always <em>"picky eating."</em></h2></div><p class="section-intro">Eating involves sight, sound, smell, taste, touch, expectations and feelings. A difficult mealtime may be a sign that a child needs an adjustment, not pressure.</p></div>
+      <div class="insight-grid">
+        <article class="insight-card lavender"><div class="insight-icon">🧩</div><h3>Autism</h3><p>Some autistic children experience food textures, smells, temperatures, or changes in routine more intensely. Predictability, familiar foods, and sensory adjustments may help.</p><span>Needs vary from child to child.</span></article>
+        <article class="insight-card peach"><div class="insight-icon">🌟</div><h3>ADHD</h3><p>Some children with ADHD become distracted, miss hunger cues, have difficulty staying at the table, or experience appetite changes with certain medications.</p><span>Ask a clinician about medication-related concerns.</span></article>
+        <article class="insight-card sage"><div class="insight-icon">💛</div><h3>Beyond labels</h3><p>A child can have sensory food differences with either condition, both, or neither. Every child deserves support shaped around their own needs and health.</p><span>Observe the child, not just a diagnosis.</span></article>
+      </div>
+      <div class="gentle-banner"><span class="banner-icon">💬</span><p><strong>Try this shift:</strong> Instead of asking <em>“Why won't you just eat it?”</em> ask <em>“What feels difficult about this food or this moment?”</em></p></div>
+    </section>
+
+    <section id="sensory" class="section section-cream" aria-labelledby="sensory-title">
+      <div class="container"><div class="section-heading"><div><p class="eyebrow">02 / THE SENSORY EXPERIENCE</p><h2 id="sensory-title">See food through <em>their senses.</em></h2></div><p class="section-intro">Select a sense to explore what a child might experience and how a caregiver can respond. No two children have the same sensory profile.</p></div>
+        <div class="sensory-explorer">
+          <div class="sense-tabs" role="tablist" aria-label="Food sensory experiences">
+            <button type="button" role="tab" id="sense-tab-texture" aria-controls="sense-panel" aria-selected="true" tabindex="0" data-sense="texture"><span>🧸</span> Texture</button>
+            <button type="button" role="tab" id="sense-tab-smell" aria-controls="sense-panel" aria-selected="false" tabindex="-1" data-sense="smell"><span>🌸</span> Smell</button>
+            <button type="button" role="tab" id="sense-tab-sound" aria-controls="sense-panel" aria-selected="false" tabindex="-1" data-sense="sound"><span>🔔</span> Sound</button>
+            <button type="button" role="tab" id="sense-tab-temp" aria-controls="sense-panel" aria-selected="false" tabindex="-1" data-sense="temp"><span>🌡️</span> Temperature</button>
+            <button type="button" role="tab" id="sense-tab-presentation" aria-controls="sense-panel" aria-selected="false" tabindex="-1" data-sense="presentation"><span>🍽️</span> Presentation</button>
+          </div>
+          <div class="sense-panel" id="sense-panel" role="tabpanel" tabindex="0" aria-labelledby="sense-tab-texture" aria-live="polite">
+            <div class="sense-panel-graphic" id="sense-graphic" aria-hidden="true">🧸</div>
+            <div><p class="panel-label">WHAT IT MIGHT FEEL LIKE</p><h3 id="sense-title">Texture can be overwhelming.</h3><p id="sense-why">Crunchy, mushy, sticky and mixed textures can feel very different inside the mouth.</p><div class="sense-action"><strong>Supportive idea</strong><p id="sense-tip">Keep a reliable familiar food available. Offer a separate option or a small, no-pressure way to explore another texture.</p></div></div>
+          </div>
+        </div>
+        <p class="footnote">Sensory differences are not misbehavior. If you notice frequent choking, coughing, painful swallowing, or major nutritional concerns, speak with a healthcare professional rather than relying on sensory adjustments alone.</p>
+      </div>
+    </section>
+
+    <section id="culture" class="section container" aria-labelledby="culture-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / CULTURE & COMMUNITY</p><h2 id="culture-title">Culture is part of <em>care.</em></h2></div><p class="section-intro">Inclusive feeding support respects a family's traditions, language, values, and the child's comfort. The goal is participation—not making every child eat alike.</p></div>
+      <div class="culture-statement"><div class="culture-statement-text"><span class="mini-eyebrow">A COMMUNITY THAT MAKES SPACE</span><h3>One table.<br />Many traditions.<br /><em>Everyone welcome.</em></h3><p>From home-cooked family meals to school lunchboxes, celebrations, and shared community gatherings, food tells many stories. Sensory accommodations can sit alongside cultural identity.</p></div><div class="culture-symbols" aria-hidden="true"><span class="culture-circle c1">🥘</span><span class="culture-circle c2">🍚</span><span class="culture-circle c3">🫓</span><span class="culture-circle c4">🍲</span><span class="culture-circle c5">💚</span><span class="culture-circle c6">🤲</span></div></div>
+      <div class="culture-grid">
+        <article class="culture-card"><span class="card-number">01</span><div class="culture-emoji">🏡</div><h3>Make room for family foods</h3><p>Ask which foods are familiar, meaningful, and comfortable. Do not assume any culture has one single diet or that familiar foods must be replaced with unfamiliar ones.</p></article>
+        <article class="culture-card"><span class="card-number">02</span><div class="culture-emoji">🧑‍🤝‍🧑</div><h3>Belonging beyond the plate</h3><p>A child can join a family meal, celebration, or classroom activity while eating a preferred food—or while choosing a quieter seat or a shorter visit.</p></article>
+        <article class="culture-card"><span class="card-number">03</span><div class="culture-emoji">🎉</div><h3>Celebrate without food pressure</h3><p>At Eid gatherings, birthdays, weddings or school events, allow a familiar meal, clear food information, and a quiet break when needed. Never make tasting a public test.</p></article>
+        <article class="culture-card"><span class="card-number">04</span><div class="culture-emoji">🗣️</div><h3>Listen in the family's language</h3><p>Invite parents and children to describe needs in the language they prefer. Ask about allergies, dietary requirements, textures, routines, and relevant customs with curiosity.</p></article>
+      </div>
+
+      <section id="food-explorer" class="food-explorer" aria-labelledby="food-explorer-title">
+        <div class="food-explorer-intro">
+          <div>
+            <p class="eyebrow">A WORLD OF FAMILIAR FOODS</p>
+            <h3 id="food-explorer-title">Food traditions, <em>with room for every child.</em></h3>
+            <p>Explore dishes families may know and love, plus gentle sensory-aware serving ideas. These are <strong>examples, not special diets or prescriptions</strong>. No culture has a single menu, and each child's needs are individual.</p>
+          </div>
+          <div class="food-explorer-art" aria-hidden="true"><span>🫓</span><span>🍚</span><span>🥣</span><span>🍝</span><span>🍌</span></div>
+        </div>
+        <div class="explorer-controls">
+          <label class="explorer-search">Search a dish or ingredient
+            <span class="search-wrap"><span aria-hidden="true">⌕</span><input id="food-search" type="search" placeholder="Try rice, bread, noodles, lentils…" autocomplete="off" /></span>
+          </label>
+          <label class="explorer-filter">Culture or food tradition
+            <select id="food-region"><option value="all">All traditions</option></select>
+          </label>
+          <label class="explorer-filter">Explore by typical texture
+            <select id="food-texture"><option value="all">All textures</option><option value="soft">Soft</option><option value="smooth">Smooth / creamy</option><option value="separate">Separate pieces</option><option value="chewy">Chewy</option><option value="crisp">Crisp / crunchy</option></select>
+          </label>
+        </div>
+        <div class="food-results-head"><span id="food-count" role="status" aria-live="polite">Exploring cultural food ideas</span><button type="button" id="food-clear" class="explorer-reset">Clear filters ↻</button></div>
+        <div class="food-grid" id="food-grid"></div>
+        <div class="food-empty" id="food-empty" hidden><span>🌼</span><strong>No foods found yet.</strong><p>Try another word or clear the filters to explore all traditions.</p></div>
+        <div class="food-explorer-advice"><span aria-hidden="true">💛</span><div><strong>Keep the child's comfort and culture together.</strong><p>Modifying presentation does not mean changing or rejecting a family's food tradition. Ask the child and family what they already enjoy, keep accepted foods available, and never pressure tasting. Typical ingredients and textures vary by recipe. Check <strong>allergies, dietary/religious requirements, age-appropriate choking risks, and swallowing safety</strong> before offering a food. For infants and toddlers, preparation must match developmental feeding skills; this explorer is not an infant-feeding guide. If a child has swallowing difficulties or a severely restricted diet, ask a qualified clinician for individualized guidance.</p><p class="food-evidence">Read more: <a href="https://www.bda.uk.com/resource/what-are-the-difficulties-for-autistic-children-at-mealtimes.html" target="_blank" rel="noopener noreferrer">British Dietetic Association ↗</a> · <a href="https://extensionpubs.unl.edu/publication/g2303/2018/html/view" target="_blank" rel="noopener noreferrer">Culturally responsive feeding ↗</a> · <a href="https://www.chelwest.nhs.uk/services/childrens-services/community-services/cheyne/support-for-children-and-families/eating-support" target="_blank" rel="noopener noreferrer">NHS feeding support ↗</a></p></div></div>
+        <p class="food-status" id="food-status" role="status" aria-live="polite"></p>
+        <div class="inclusive-events"><article><span aria-hidden="true">🏡</span><h4>At home</h4><p>Keep loved family foods available and offer individual portions or separated ingredients when a child prefers them.</p></article><article><span aria-hidden="true">🏫</span><h4>At school</h4><p>Include family food examples in menus and activities, share ingredient information, and never shame a different lunchbox.</p></article><article><span aria-hidden="true">🎊</span><h4>At celebrations</h4><p>At Eid, a birthday, or a community potluck, make room for familiar foods, food labels, quiet spaces, and participation without pressure.</p></article></div>
+      </section>
+
+      <div class="language-box"><div><p class="eyebrow">WORDS THAT WELCOME</p><h3>Supportive phrases, in two languages</h3><p>Use words that respect choice and comfort—never shame.</p></div><div class="phrases"><div><span>ENGLISH</span><strong>“You can sit with us, even if your food is different.”</strong></div><div dir="rtl" lang="ar"><span>العربية</span><strong>«تقدر تجلس معنا، حتى لو كان أكلك مختلف.»</strong></div><div><span>ENGLISH</span><strong>“You can tell me what feels uncomfortable.”</strong></div><div dir="rtl" lang="ar"><span>العربية</span><strong>«تقدر تخبرني إذا كان في شيء يضايقك.»</strong></div></div></div>
+      <div class="school-strip"><span>🏫</span><p><strong>For schools, nurseries and community spaces:</strong> Welcome familiar lunchbox foods, avoid food-based teasing, provide advance menus or sensory-friendly seating when possible, and work with families on individualized supports.</p></div>
+    </section>
+
+    <section id="strategies" class="section section-lilac" aria-labelledby="strategies-title"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">04 / PRACTICAL SUPPORT</p><h2 id="strategies-title">Small changes, <em>calmer meals.</em></h2></div><p class="section-intro">These ideas can help children feel safer and more understood, but they are not a substitute for an individualized assessment when nutrition or health is affected.</p></div>
+      <div class="steps-grid">
+        <article class="step-card"><span class="step-icon">🕊️</span><span class="step-num">01</span><h3>Reduce pressure</h3><p>Skip bribes, shaming, or forcing bites. Invite curiosity without requiring tasting, touching or finishing a plate.</p></article>
+        <article class="step-card"><span class="step-icon">📅</span><span class="step-num">02</span><h3>Make it predictable</h3><p>Explain what will be served, where everyone will sit, and when the meal begins. A simple picture schedule may help.</p></article>
+        <article class="step-card"><span class="step-icon">🥣</span><span class="step-num">03</span><h3>Offer a familiar option</h3><p>Include a reliably accepted food when possible and let new foods stay separate. Food exploration can happen at the child's pace.</p></article>
+        <article class="step-card"><span class="step-icon">🌤️</span><span class="step-num">04</span><h3>Adjust the setting</h3><p>Consider lighting, smells, noise, seat position, utensils and the number of people at the table.</p></article>
+        <article class="step-card"><span class="step-icon">⏰</span><span class="step-num">05</span><h3>Notice appetite patterns</h3><p>ADHD-related distraction or medication may affect hunger. Discuss persistent appetite concerns or medication changes with the prescriber.</p></article>
+        <article class="step-card"><span class="step-icon">🤍</span><span class="step-num">06</span><h3>Celebrate connection</h3><p>Success may mean sitting nearby, staying calm, sharing a story or communicating a need—not necessarily eating a new food.</p></article>
+      </div>
+    </div></section>
+
+    <section id="make-plan" class="section container plan-section" aria-labelledby="plan-title">
+      <div class="section-heading"><div><p class="eyebrow">05 / MAKE IT PERSONAL</p><h2 id="plan-title">Create a <em>family support plan.</em></h2></div><p class="section-intro">Select the supports you want to try. Print or copy your plan to share with family members, teachers or care teams.</p></div>
+      <div class="plan-builder">
+        <div class="plan-form">
+          <label class="field-label" for="child-name">Child's name or nickname (optional)</label><input type="text" id="child-name" maxlength="42" placeholder="e.g. My little explorer" autocomplete="off" />
+          <fieldset><legend>What may help at mealtimes?</legend>
+            <label class="check-option"><input type="checkbox" value="Offer a familiar food alongside the meal." checked /><span><strong>A familiar food option</strong><small>Keep something reliable available.</small></span></label>
+            <label class="check-option"><input type="checkbox" value="Allow separate textures or foods on separate plates." /><span><strong>Food served separately</strong><small>Reduce mixed textures and surprises.</small></span></label>
+            <label class="check-option"><input type="checkbox" value="Offer a quieter space or seating choice." checked /><span><strong>A quieter eating space</strong><small>Less noise, crowding and overwhelm.</small></span></label>
+            <label class="check-option"><input type="checkbox" value="Show a visual meal routine or give advance notice." /><span><strong>A predictable routine</strong><small>Know what comes next.</small></span></label>
+            <label class="check-option"><input type="checkbox" value="Respect the family's cultural foods and dietary requirements." checked /><span><strong>Respect family food traditions</strong><small>Culturally meaningful foods matter.</small></span></label>
+            <label class="check-option"><input type="checkbox" value="Allow a child to participate without pressure to taste or finish food." checked /><span><strong>No-pressure participation</strong><small>Belonging is more than taking bites.</small></span></label>
+            <label class="check-option"><input type="checkbox" value="Communicate supports with teachers, caregivers or a clinician." /><span><strong>Share needs with the support team</strong><small>Keep home and school aligned.</small></span></label>
+          </fieldset>
+          <label class="field-label" for="plan-notes">Our family foods, comforts or important notes (optional)</label><textarea id="plan-notes" rows="3" maxlength="1400" placeholder="Example: Loves plain rice and yogurt. Prefers a quiet corner. We speak Arabic at home. Include meaningful cultural foods and dietary needs."></textarea>
+          <div class="plan-actions"><button class="btn btn-dark" id="copy-plan" type="button">Copy family plan <span aria-hidden="true">⧉</span></button><button class="btn btn-outline" id="print-plan" type="button">Print plan <span aria-hidden="true">↗</span></button></div><p class="save-note" id="plan-status" role="status">Your plan stays in this browser and is not sent anywhere.</p>
+        </div>
+        <div class="plan-preview" id="plan-preview" aria-live="polite"><span class="preview-label">YOUR SUPPORT PLAN</span><div class="preview-heart">💛</div><h3>Calmer moments.<br /><em>Stronger belonging.</em></h3><p class="preview-sub">The best plan starts by listening to your child.</p><div class="preview-items"><strong>Family mealtime supports</strong><ul id="preview-list"></ul></div><div class="preview-notes" id="preview-notes"></div><div class="preview-bottom">Made with care • Every Child, Every Table</div></div>
+      </div>
+    </section>
+
+    <section id="help" class="section section-help" aria-labelledby="help-title"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">06 / KNOW WHEN TO ASK</p><h2 id="help-title">When does a child need <em>more support?</em></h2></div><p class="section-intro">Some selective eating is common in childhood. But significant distress, nutrition concerns or unsafe swallowing should be assessed rather than managed with reassurance alone.</p></div>
+      <div class="help-grid"><div class="help-card help-card-light"><div class="help-icon">🩺</div><h3>Speak with a pediatrician if...</h3><ul><li>Foods are very limited or the variety is shrinking.</li><li>Meals cause persistent distress or disrupt family, school or daily life.</li><li>You notice concerns about growth, energy, dehydration, constipation or possible nutrient deficiencies.</li><li>Food refusal may relate to pain, reflux, allergies, oral-motor or other medical issues.</li><li>Medication seems to change your child's appetite.</li></ul><p>A pediatrician may recommend a dietitian, occupational therapist, speech-language/feeding specialist, or mental-health professional when appropriate.</p></div><div class="help-card help-card-dark"><div class="help-icon">⚠️</div><h3>Get urgent medical help if...</h3><ul><li>A child is choking or having trouble breathing.</li><li>Swallowing causes repeated choking/coughing, or there is concern about aspiration.</li><li>A child is unable to drink, shows signs of significant dehydration, or is suddenly very unwell.</li></ul><p>Do not attempt home feeding exercises for a suspected swallowing problem without professional assessment.</p><div class="arfid-note"><strong>What about ARFID?</strong><p>Avoidant/restrictive food intake disorder can involve sensory sensitivities, low interest in eating, or fear of consequences such as choking. It is <em>not</em> simply a synonym for picky eating, autism or ADHD. Diagnosis requires professional assessment of the impact.</p></div></div></div>
+    </div></section>
+
+    <section class="section faq-section container" aria-labelledby="faq-title"><div class="section-heading"><div><p class="eyebrow">07 / COMMON QUESTIONS</p><h2 id="faq-title">A few questions <em>parents ask.</em></h2></div><p class="section-intro">Clear answers without blame, food rules, or one-size-fits-all expectations.</p></div>
+      <div class="faq-list">
+        <details><summary>Does selective eating mean my child has autism, ADHD or ARFID?<span aria-hidden="true">＋</span></summary><p>No. Children can be selective for many reasons, including development, medical concerns and sensory preferences. Autism and ADHD may be associated with feeding difficulties, but eating patterns alone cannot diagnose a condition. ARFID is assessed by a qualified clinician when restriction has a significant impact.</p></details>
+        <details><summary>Should I insist my child tries every food at a cultural celebration?<span aria-hidden="true">＋</span></summary><p>No. A child can participate by greeting relatives, sitting with family, helping with preparations or enjoying a familiar food. A celebration should not become a public test of food tolerance.</p></details>
+        <details><summary>Can we keep our cultural foods when making sensory adjustments?<span aria-hidden="true">＋</span></summary><p>Absolutely. Ask which family foods are important and which elements feel comfortable. For example, you might keep sauces separate or offer a familiar texture—but the right accommodation depends on the child, not their cultural identity.</p></details>
+        <details><summary>Is there a special diet that cures autism or ADHD?<span aria-hidden="true">＋</span></summary><p>No specific food or elimination diet cures autism or ADHD. Restrictive diets can cause nutritional problems and should not be started as a treatment without individualized medical and dietetic advice.</p></details>
+        <details><summary>What should I tell my child's school or nursery?<span aria-hidden="true">＋</span></summary><p>Share the child's reliable foods, sensory triggers, allergies or medical needs, cultural and dietary requirements, mealtime routine, communication preferences, and what adults should do if the child becomes distressed. Ask the school not to shame or publicly compare lunches.</p></details>
+      </div>
+    </section>
+
+    <section id="resources" class="section resources-section" aria-labelledby="resources-title"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">08 / KEEP LEARNING</p><h2 id="resources-title">Reliable places to <em>learn more.</em></h2></div><p class="section-intro">These references are offered for parents and educators who want more detail. This site is educational, not a diagnostic or treatment service.</p></div>
+      <div class="resources-grid">
+        <a href="https://www.autismcentral.nhs.uk/guidance/eating" target="_blank" rel="noopener noreferrer"><span>NHS Autism Central</span><strong>Eating and sensory differences</strong><span class="resource-arrow">↗</span></a>
+        <a href="https://www.leicspart.nhs.uk/autism-space/health/eating-and-drinking-difficulties-for-autistic-people/" target="_blank" rel="noopener noreferrer"><span>NHS Autism Space</span><strong>Eating, drinking and sensory preferences</strong><span class="resource-arrow">↗</span></a>
+        <a href="https://library.sheffieldchildrens.nhs.uk/helping-children-with-adhd-eat-well/" target="_blank" rel="noopener noreferrer"><span>Sheffield Children's NHS</span><strong>Helping children with ADHD eat well</strong><span class="resource-arrow">↗</span></a>
+        <a href="https://www.rcpsych.ac.uk/patients-and-carers/mental-illnesses-and-mental-health-problems/avoidant-restrictive-food-intake-disorder-%28arfid%29" target="_blank" rel="noopener noreferrer"><span>Royal College of Psychiatrists</span><strong>Understanding ARFID</strong><span class="resource-arrow">↗</span></a>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/39921222/" target="_blank" rel="noopener noreferrer"><span>Peer-reviewed research</span><strong>Culture and participation at mealtimes</strong><span class="resource-arrow">↗</span></a>
+        <a href="https://extensionpubs.unl.edu/publication/g2303/2018/html/view" target="_blank" rel="noopener noreferrer"><span>University of Nebraska–Lincoln Extension</span><strong>Using culturally responsive feeding practices</strong><span class="resource-arrow">↗</span></a>
+        <a href="https://www.cdc.gov/adhd/treatment/" target="_blank" rel="noopener noreferrer"><span>CDC</span><strong>ADHD treatment and appetite effects</strong><span class="resource-arrow">↗</span></a>
+      </div>
+      <div class="source-note"><strong>About this project:</strong> This website is a new, parent-focused adaptation of the supplied school presentation on children's eating difficulties. It focuses on sensory feeding needs, neurodiversity and inclusive community participation rather than asking children to play games or learn clinical labels.</div>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a href="#top" class="footer-brand"><img class="footer-logo" src="assets/logo.png" alt="" onerror="this.hidden=true" />every child, <strong>every table.</strong> <span>♡</span></a><p>Creating space for every child, every family, and every food story.<br />For education only — not a substitute for professional healthcare advice.</p><a href="#top" class="back-top">Back to top ↑</a></div></footer>
+</body>
+</html>
